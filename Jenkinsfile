@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'set'
-                echo "hello"
+                print('hello')
             }
         }
     }
